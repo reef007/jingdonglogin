@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+/*ie存在兼容问题，怎么回事*/
+*{padding:0;margin:0}
+.clr{clear:both;}
+.header{width:990px;height:60px;margin:0 auto;}
+.header img{width:170px;height:60px;margin:0 0;float:left;}
+.header span{font-size:24px;color:#333;display:block;line-height:60px;float:left;margin-left:20px;}
+/*头部部分结束*/
+.banner{width:100%;height:475px;background:rgb(156, 109, 239);}	
+.banner .banner-con{width:990px;height:475px;margin:0 auto;background:url(image/banner.jpg) no-repeat 0px 0px;}
+.banner .banner-con .con-form{width:346px;height:367px;background:#FFF;margin-top:40px;float:right;position:relative;}
+.banner .banner-con .con-form .myform{padding-top:15px;}
+.banner .banner-con .con-form .myform .top{width:306px;height:30px;margin:0 auto;line-height:30px;}	
+.banner .banner-con .con-form .myform .top span{font-size:20px;color:#666;}
+.banner .banner-con .con-form .myform .top a{text-decoration:none;color:#b61d1d;float:right;background:url(image/user-icons.png) no-repeat -102px -67px;padding-left:20px;}
+.banner .banner-con .con-form .myform .top a:hover{text-decoration:underline;}
+.banner .banner-con .con-form .myform .warn{width:306px;height:28px;margin-left:20px;margin-top:3px;line-height:28px;background:#fff6d2 no-repeat 0 0;border:1px solid #ffe57d;}
+.banner .banner-con .con-form .myform .warn span:first-child{display:block;width:17px;height:17px;overflow:hidden;background:url(image/user-icons.png) no-repeat -104px -22px;float:left;margin-top:5px;margin-left:10px;}
+.banner .banner-con .con-form .myform .warn span:last-child{display:block;margin-left:15px;color:#666;float:left;font-size:12px;}
+/*警告部分结束*/
+.banner .banner-con .con-form .myform .input-name{width:306px;height:38px;border:1px solid #bdbdbd;margin-left:20px;margin-top:10px;}
+.banner .banner-con .con-form .myform .input-name span{width:39px;height:38px;background:url(image/user-icons.png) no-repeat;float:left;}
+.banner .banner-con .con-form .myform .input-name input{width:255px;height:36px;float:left;font-size:16px;outline:none;border:0;padding-left:10px;}
+.banner .banner-con .con-form .myform .input-psw{width:306px;height:38px;border:1px solid #bdbdbd;margin-left:20px;margin-top:20px;}
+.banner .banner-con .con-form .myform .input-psw span{width:39px;height:38px;background:url(image/user-icons.png) no-repeat -47px 0px;float:left;}
+.banner .banner-con .con-form .myform .input-psw input{width:255px;height:36px;float:left;font-size:16px;outline:none;border:0;padding-left:10px;}
+.banner .banner-con .con-form .myform .other{width:306px;height:28px;margin-left:20px;margin-top:20px;}
+.banner .banner-con .con-form .myform .other ul li{list-style-type:none;float:left;}
+.banner .banner-con .con-form .myform .other ul li input{line-height:28px;margin-right:5px;}
+.banner .banner-con .con-form .myform .other ul li span{line-height:28px;margin-right:20px;font-size:14px;color:#666;}
+.banner .banner-con .con-form .myform .other ul li a{float:right;margin-left:24px;text-decoration:none;color:#666;font-size:14px;line-height:28px;}
+.banner .banner-con .con-form .myform .other ul li a:hover{text-decoration:underline;color:#F30;}
+.banner .banner-con .con-form .myform .login input{width:306px;height:35px;background:#e4393c;border:0;color:#FFF;font-size:20px;line-height:35px;letter-spacing:15px;font-weight:500;margin:10px 0 0 20px;}
+/*内容部分已完成*/
+.banner .banner-con .con-form .bottom{width:306px;height:38px;margin-left:20px;margin-top:20px;}
+.banner .banner-con .con-form .bottom p{font-size:14px;color:#999;margin-bottom:3px;}
+.banner .banner-con .con-form .bottom div ul{float:left;}
+.banner .banner-con .con-form .bottom div ul li{float:left;margin-right:10px;list-style-type:none;font-size:14px;margin-right:15px;}
+.banner .banner-con .con-form .bottom div ul li span{color:#666;}
+.banner .banner-con .con-form .bottom div ul li a{font-size:14px;text-decoration:none;color:#666;margin-right:15px;}
+.banner .banner-con .con-form .bottom div ul li a:hover{text-decoration:underline;color:#C30;}
+.banner .banner-con .con-form .login_way a{position:absolute;display:block;width:60px;height:60px;bottom:0px;right:0px;background:url(image/right-bottom.png) no-repeat -60px 0px;}
+/*该部分不知道为什么图片找不到，但是路径是正确的,,,,原因是背景图片的位置不正确*/
+/*.banner .banner-con .con-form .login_way a:hover{background-position:0px -60px;}*/
+/*表单登录部分完成*/
+.footer{width:990px;height:104px;margin:0 auto;}
+.footer .footer-top{width:990px;height:18px;}
+.footer .footer-top a{color:#999;font-size:14px;display:block;text-decoration:none;float:right;background:url(image/q-icon.png) no-repeat 0 bottom;padding-left:23px;line-height:18px;margin-top:10px;}
+/*背景色与文字不在一个水平线上....原因是背景图片位置竖直方向数值不正确，当不确定是多少时可以采用top center bottom等值代替*/
+.footer .footer-top a:hover{color:#C30;text-decoration:underline;}
+.footer .footer-con {text-align:center;margin-top:20px;color:#666;}
+.footer .footer-con a{text-decoration:none;color:#666;font-size:12px;margin-right:10px;margin-left:5px;}
+.footer .footer-con a:hover{text-decoration:underline;color:#C30;}
+.footer .footer-con p{margin-top:10px;font-size:12px;}
+/*footer部分完成*/
